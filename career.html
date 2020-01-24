@@ -1,0 +1,164 @@
+{% extends "layout_2.html" %}
+{% block content %}
+
+<nav class="cd-vertical-nav">
+	<ul class="text-uppercase">
+		<li style="list-style-type:none;"><a href="#section1" class="active"><span class="label">Resume</span></a></li>
+		<li style="list-style-type:none;"><a href="#section2"><span class="label">Education</span></a></li>
+		<li style="list-style-type:none;"><a href="#section3"><span class="label">Publications</span></a></li>
+		<li style="list-style-type:none;"><a href="#section4"><span class="label">Presentations</span></a></li>
+	</ul>
+</nav><!-- .cd-vertical-nav -->
+
+<button class="cd-nav-trigger cd-image-replace"><span aria-hidden="true"></span></button>
+
+<section id="section1" class="cd-section">
+	<div class="container">
+		<h3 id="career-heading" style="margin-bottom: 50px;">Career</h3>
+        <p style="font-family:'Raleway',sans-serif; font-weight:200; font-size:16px;">This page highlights some of the key aspects of my experience, skills, and education that my provide some insight into my [brief] career. While a large portion of my working career has consisted of my time as a student, I have been fortunate to come across research opportunities that have greatly helped me develop as a scientist and drive a curiosity to continue to grow.</p>
+        <br><hr style="width: 500px; height: 1px; border:none;color:#d9d9d9;background-color:#d9d9d9;"><br>
+        <div>
+            <h3 class="text-uppercase" style="color: #404040; font-family: 'Abel', sans-serif; font-size: 24px;">Downloadable content</h3><br>
+            <a href="static/resume-2019.pdf" download="general-resume-2019.pdf">
+                <button class="button" id="resume-button">RESUME</button>
+            </a>
+        </div>
+		<a href="#section2" class="cd-scroll-down cd-image-replace" id="section1-bot-arrow">
+            <i class="fa fa-caret-down"></i>
+        </a>
+	</div>
+</section><!-- cd-section -->
+
+<section id="section2" class="cd-section">
+	<div class="container">
+        <div class="container">
+                <div class="container" id="education-content">
+                    <div class="box">
+                        <div class="content">
+                            <h3 style="margin-top: 25%">EDUCATION</h3>
+                            <p style="font-size:16px;">This section represents a summary of my post-secondary education.</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-angle-double-right" style="font-size: 50px;"></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">01</div>
+                        <div class="content">
+                            <h3>Bachelor of Science</h3>
+                            <p class="text-uppercase" style="text-align: center;">University of British Columbia</p>
+                            <p style="font-size:14px;">Major in Biology (focus on cell biology & genetics)</p>
+                            <p style="font-size:14px;">Minor in Microbiology & Immunology</p>
+                            <p style="font-size:14px;">Graduated <i>with Distinction</i> and 16 month Co-op designation in 2019</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">02</div>
+                        <div class="content">
+                            <h3>Bachelor of Computer Science</h3>
+                            <p class="text-uppercase" style="text-align: center;">University of British Columbia</p>
+                            <p style="font-size:14px;">With a statistics bridging module.</p>
+                            <p style="font-size:14px;">Expected graduation: 2021</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+	</div>
+</section><!-- cd-section -->
+
+<section id="section3" class="cd-section">
+	<div class="container">
+		<h3 style="font-size: 35px;">Publications</h3>
+		<div class="container" id="publication-list-container">
+            <ul id="publication-list">
+                <li id="publication-list-item">
+                    <span class="citation" style="text-align: left;">From the London Meeting, 2018 Meeting: Proceedings of the British Pharmacological Society at: <a>Published in next Pharmacology Volume</a></span>
+                    <span class="type">ABSTRACT</span>
+                </li>
+                <li id="publication-list-item">
+                    <span class="citation" style="text-align: left;">From the London Meeting, 2018 Meeting: Proceedings of the British Pharmacological Society at: <a>Published in next Pharmacology Volume</a></a></span>
+                    <span class="type">ABSTRACT</span>
+                </li>
+                <li id="publication-list-item">
+                    <span class="citation" style="text-align: left;">Byford, A., Charoenpanon, T., Kiyota, B., & Devsi, A. (2019). Selected Abstracts from Pharmacology 2018: Time course of intravenous delta-9-tetrahydrocannabinol (THC) on analgesia and other central nervous system (CNS) effects in mice. British Journal of Pharmacology, 176(16), 2977–2978. doi: 10.1111/bph.14681</span>
+                    <span class="type">ABSTRACT</span>
+                </li>
+                <li id="publication-list-item">
+                    <span class="citation" style="text-align: left;">From the London Meeting, 2017 Meeting: Proceedings of the British Pharmacological Society at: <a>http://www.pa2online.org/abstract/abstract.jsp?abid=33490&author=kiyota&cat=-1&period=-1</a></a></span>
+                    <span class="type">ABSTRACT</span>
+                </li>
+                <li id="publication-list-item">
+                    <span class="citation" style="text-align: left;">From the London Meeting, 2017 Meeting: Proceedings of the British Pharmacological Society at: <a>http://www.pa2online.org/abstract/abstract.jsp?abid=33489&author=kiyota&cat=-1&period=-1</a></a></span>
+                    <span class="type">ABSTRACT</span>
+                </li>
+            </ul>
+        </div>
+	</div>
+</section><!-- cd-section -->
+
+
+<section id="section4" class="cd-section">
+	<div class="container">
+        <h3 style="font-size: 35px; margin-bottom: 50px;">Presentations</h3>
+        <div class="container" id="card-container">
+            <div class="cards">
+                <div class="imgBx">
+                    <div>
+                        <img style="height:150px;width:150px;margin-bottom:25px;opacity:0.75;" src="static/bps-logo.png">
+                        <h2>BPS Meeting 2018</h2>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>British Pharmacological Society Meeting 2018</h2>
+                    <h2 style="color:#404040;font-size:16px;">Oral presentation</h2>
+                    <p><strong>Title</strong>: A statistical comparison on two procedures for using the thermal 'hot' plate assay to assess analgesia in mice.</p>
+                    <p><strong>Author(s)</strong>: <strong>B. Kiyota</strong>.</p>
+                    <p><i>Anesthesiology, Pharmacology, & Therapeutics, University of British Columbia, Vancouver, Canada</i></p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="imgBx">
+                    <div>
+                        <img style="height:150px;width:150px;margin-bottom:25px;opacity:0.75;" src="static/ubc-logo.png">
+                        <h2>APT Research Day 2019</h2>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>Anesthesiology, Pharmacology & Therapeutics Research Day 2019</h2>
+                    <h2 style="color:#404040;font-size:16px;">Oral presentation</h2>
+                    <p><strong>Title</strong>: A study comparing delta-9-tetrahydrocannabinol and cannabis extract on thermal nociception and central nervous system effects in mice.</p>
+                    <p><strong>Author(s)</strong>: K. Taheri, C. Bayley, J. Padam, <strong>B. Kiyota</strong>, A. Devsi, T. Ouellette, B. A. MacLeod, E. Puil.</p>
+                    <p><i>Anesthesiology, Pharmacology, & Therapeutics, University of British Columbia, Vancouver, Canada</i></p>
+
+                </div>
+            </div>
+            <div class="cards">
+                <div class="imgBx">
+                    <div>
+                        <img style="height:150px;width:150px;margin-bottom:25px;opacity:0.75;" src="static/ubc-logo.png">
+                        <h2>APT Research Day 2019</h2>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>Anesthesiology, Pharmacology & Therapeutics Research Day 2019</h2>
+                    <h2 style="color:#404040;font-size:16px;">Poster presentation</h2>
+                    <p><strong>Title</strong>: A statistical comparison on two procedures for using the thermal 'hot' plate assay to assess analgesia in mice.</p>
+                    <p><strong>Author(s)</strong>: <strong>B. Kiyota</strong>.</p>
+                    <p><i>Anesthesiology, Pharmacology, & Therapeutics, University of British Columbia, Vancouver, Canada</i></p>
+                    <hr style="width: 100%; height: 0.5px; border:none;color:#cccccc;background-color:#bfbfbf; margin: 5px;">
+                    <p>Awarded Research Day Prize in Pharmacology category of poster presentations.</p>
+                </div>
+            </div>
+        </div>
+	</div>
+</section><!-- cd-section -->
+
+<script src="static/jquery-2.1.4.js"></script>
+<script src="static/main-vertical-nav-dot.js"></script>
+<script src="static/modernizr.js"></script>
+
+{% endblock content %}
+
